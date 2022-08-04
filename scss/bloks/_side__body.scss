@@ -1,0 +1,150 @@
+.side__body{
+    margin-left: 260px;
+    width: 82%;
+    padding: 0 33px;
+}
+.header__top{
+    padding: 36px 0 58px 0;
+    @include center (none);
+}
+.header__profiles{
+    @include center (none);
+    border-left: 1px solid #DFE0EB;
+}
+.top__inner{
+    width: 73%;
+}
+.header__title{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.3px;
+    color: #252733;
+    line-height: 30px;
+}
+.input__img{
+    margin-right: 33px;
+}
+.profiles__title{
+    margin-left: 32px;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #252733;
+    text-align: right;
+}
+.avatar{
+    margin-left: 14px;
+}
+
+.header__content{
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #DFE0EB;
+}
+.content__title{
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 19px;
+    color: #252733;
+    letter-spacing: 0.4px;
+}
+.content__top{
+    @include center (none);
+    padding: 32px;
+}
+.content__inner{
+    margin-left: 81%;
+    @include center (none);
+}
+.sort{
+    @include center (none);
+}
+.filter{
+    margin-left: 34px;
+    @include center (none);
+}
+table{
+    width: 100%;
+    padding: 0 33px;
+    margin-top: 50px;
+}
+tr th{
+    text-align: left;
+}
+tr{
+    position: relative;
+}
+.box{
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+}
+td::after{
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    background-color: #DFE0EB;
+    left: 0;
+    bottom: 5px;
+}
+.content{
+    margin-left: 24px;
+}
+h4{
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+p{
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+}
+time{
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+}
+ td > span{
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 100px;
+    background: #F12B2C;
+    font-weight: 700;
+    line-height: 14px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.bg-color{
+    background: #FEC400;
+}
+.bg-normal{
+    background-color: #29CC97;
+}
+
+th{
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+th::after{
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    background-color: #DFE0EB;
+    left: 0;
+    bottom: -3px;
+}
